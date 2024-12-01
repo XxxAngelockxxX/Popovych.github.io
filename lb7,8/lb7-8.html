@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тортики и Пирожина</title>
+<link rel="stylesheet" href="lb7-8.css">
+</head>
+<body>
+    <input type="radio" name="pirog" id="pirog">
+    <input type="radio" name="rulet" id="rulet">
+    <input type="radio" name="sirok" id="sirok">
+    <input type="radio" name="pirojenoe" id="pirojenoe">
+    <input type="radio" name="tort" id="tort">
+    <input type="radio" name="filter" id="filter">
+    <header>Тортики & Пирожина</header>
+    <div class="filteres">
+        <div class="slider-container">
+            <div class="slider-title">Калорії у порції</div>
+            <input id="calorie-slider" type="range" min="0" max="1000" step="111" value="0" oninput="this.nextElementSibling.textContent = this.value">
+            <output>0</output>
+            <div class="slider-values">
+                <span>Від 0</span>
+                <span>до 1000 кКал</span>
+            </div>
+            
+        </div>
+        <label for="pirog">Пироги</label>
+        <label for="rulet">Рулетики</label>
+        <label for="sirok">Сироки</label>
+        <label for="pirojenoe">Пироженое</label>
+        <label for="tort">Тортики</label>
+        <label for="filter">Сброс Фильтров</label>
+    </div>
+    <div class="catalog">
+        <div class="info tort">
+            <img src="image/sm_4434.jpg" alt="Тортик1">
+            <p class="short_info">Какойто торт №1</p>
+            <p class="kalorii">Калорії-555</p>
+        </div>
+        <div class="info rulet">
+            <img src="image/sm_361998.jpg" alt="Рулет1">
+            <p class="short_info">Какойто рулет №1</p>
+            <p class="kalorii">Калорії-666</p>
+        </div>
+        <div class="info sirok">
+            <img src="image/sm_350741.jpg" alt="Сирок1">
+            <p class="short_info">Какойто сірок №1</p>
+            <p class="kalorii">Калорії-111</p>
+        </div>
+        <div class="info tort">
+            <img src="image/sm_289521.jpg" alt="Тортик2">
+            <p class="short_info">Какойто торт №2</p>
+            <p class="kalorii">Калорії-444</p>
+        </div>
+        <div class="info pirojenoe">
+            <img src="image/sm_743287.jpg" alt="Пироженое1">
+            <p class="short_info">Какоето Пироженое №1</p>
+            <p class="kalorii">Калорії-222</p>
+        </div>
+        <div class="info rulet">
+            <img src="image/sm_719848.jpg" alt="Рулет2">
+            <p class="short_info">Какойто рулет №2</p>
+            <p class="kalorii">Калорії-333</p>
+        </div>
+        <div class="info tort">
+            <img src="image/sm_709413.jpg" alt="Тортик3">
+            <p class="short_info">Какойто торт №3</p>
+            <p class="kalorii">Калорії-999</p>
+        </div>
+        <div class="info pirojenoe">
+            <img src="image/sm_571541.jpg" alt="Пироженое2">
+            <p class="short_info">Какоето Пироженое №2</p>
+            <p class="kalorii">Калорії-888</p>
+        </div>
+        <div class="info pirog">
+            <img src="image/sm_392047.jpg" alt="Пирог1">
+            <p class="short_info">Какойто пирог №1</p>
+            <p class="kalorii">Калорії-777</p>
+        </div>
+    </div>
+    <div class="contaktUs">
+        
+        <div class="hz_chto">
+            <p><span>&#169;</span> 2024 Shaize</p>
+        </div>
+        <p>Контакти:</p>
+        <p>xxxxxxxx@gmail.com</p>
+    </div>
+</body>
+</html>
